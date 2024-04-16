@@ -1,0 +1,77 @@
+.header {
+    text-align: center;
+    height: 300px;
+    padding: 12px;
+}
+
+.ícono-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #557eb9;
+}
+
+.user-name {
+    font-family: monospace;
+    font-size: 30px;
+    margin-top: 14px;
+}
+
+.redes-sociales {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.redes-sociales-li {
+    display: inline-block;
+    margin: 5px;
+}
+
+body {
+    background: url('Resources/fondo.jpg');
+    background-size: cover;
+}
+
+.box {
+    width: 500px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+
+.icon-text i {
+    margin-right: 5px;
+}
+
+.text {
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.espacio {
+    padding-right: 190px;
+}
+
+.margen {
+    margin-bottom: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #557eb9;
+    padding-right: 3px;
+}
+
+a:hover {
+    color: blueviolet;
+}
